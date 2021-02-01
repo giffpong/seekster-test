@@ -7,10 +7,10 @@ delete pg.native;
 let db = {};
 
 const connect = async () => {
-  const user = 'xcpvslwrzebxxs';
-  const password = 'cb2d7956f77f97d697ec9626907473c26062db9d4ece72e4b6587d12ede21e79';
-  const host = 'ec2-52-71-153-228.compute-1.amazonaws.com';
-  let sequelize = new Sequelize('d2okstbgvp3th', user, password, {
+  const user = '';
+  const password = '';
+  const host = '';
+  let sequelize = new Sequelize('', user, password, {
     dialect: 'postgres',
     host: host,
     port: 5432,
